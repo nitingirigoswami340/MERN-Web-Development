@@ -4,3 +4,13 @@ pixabay site for video
 ctrl+/ for comments
 window key +.  for emojiss
 netify for hosting
+git init
+git add .
+git commit -m "box"
+git branch
+git push origin result of branch
+display :flex; it gives one dimensional display
+Row or column
+Flexbox Froggy-A game for learning css flex
+Grid:Table Format ->Rows and column
+Two dimensional Layout

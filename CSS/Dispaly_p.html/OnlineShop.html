@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <style>
+        body{
+            font-family: cursive;
+            background-color: #f8f8f8;
+            margin:0;
+        }
+        .parent{
+            display:grid;
+            /* grid-template-columns: repeat(3,1fr); */
+            grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+            gap:30px;
+            padding:10px;
+            border-radius: 12px;
+            box-shadow: 0 2px 6px black;
+            padding-bottom: 15px;
+            background-color: aliceblue;
+            color: red;
+            transition: 1s ease;
+            
+        }
+        .product{
+            border: 1px solid black;
+            overflow: hidden;
+            text-align: center;
+        }
+        .product img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+        .product button{
+            background-color: #28a745;
+            border: none;
+            color:white;
+            padding: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="product">
+            <img src="https://images.pexels.com/photos/8356854/pexels-photo-8356854.jpeg" alt="">
+            <h2>Headphone</h2>
+            <p> <del>$100</del><mark>$70.99</mark></p>
+            <button>Add to Cart</button>
+
+        </div>
+         <div class="product">
+            <img src="https://media.istockphoto.com/id/172147072/photo/standard-basketball-on-white-surface.jpg?b=1&s=612x612&w=0&k=20&c=8yUGjA8NjwQJl2OL3hS2maFLKuHVO4d3bi0Km8G7Zzk=" alt="">
+            <h2>BasketBall</h2>
+            <p><del>$100</del><mark>$70.99</mark></p>
+            <button>Add to  Cart</button>
+
+        </div>
+         <div class="product">
+            <img src="https://images.pexels.com/photos/3737800/pexels-photo-3737800.jpeg" alt="">
+            <h2>Water Bottle</h2>
+            <p><del>$8</del><mark>$5</mark></p>
+            <button>Add to Cart</button>
+
+        </div>
+         <div class="product">
+            <img src="https://images.pexels.com/photos/7550583/pexels-photo-7550583.jpeg" alt="">
+            <h2>Clothes</h2>
+            <p><del>$6</del><mark>$4</mark></p>
+            <button>Add to Cart</button>
+
+        </div>
+         <div class="product">
+            <img src="https://images.pexels.com/photos/28593086/pexels-photo-28593086.jpeg" alt="">
+            <h2>Shoes</h2>
+            <p><del>$10</del><mark>$8</mark></p>
+            <button>Add to Cart</button>
+
+        </div>
+         <div class="product">
+            <img src="https://images.pexels.com/photos/11100267/pexels-photo-11100267.jpeg" alt="">
+            <h2>Shirt</h2>
+            <p><del>$12</del><mark>$10</mark></p>
+            <button>Add to Cart</button>
+
+        </div>
+    </div>
+</body>
+</html>
